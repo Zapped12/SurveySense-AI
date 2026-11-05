@@ -1,0 +1,16 @@
+[theme]
+base = "light"
+primaryColor = "#2563EB"
+backgroundColor = "#F8FAFC"
+secondaryBackgroundColor = "#EEF2F7"
+textColor = "#17243B"
+font = "sans-serif"
+baseFontSize = 16
+headingFontSizes = ["2.75rem", "1.75rem", "1.3rem"]
+headingFontWeights = [700, 650, 600]
+baseRadius = "0.75rem"
+buttonRadius = "0.6rem"
+borderColor = "#D9E2EF"
+showWidgetBorder = true
+dataframeHeaderBackgroundColor = "#E8EEF7"
+chartCategoricalColors = ["#2563EB", "#0F766E", "#B45309"]

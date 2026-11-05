@@ -1,0 +1,56 @@
+{
+  "reviewed_response_ids": ["S001", "S002", "S003", "S004", "S005", "S006", "S007", "S008", "S009", "S010", "S011", "S012"],
+  "issues": [
+    {
+      "response_id": "S002",
+      "issue_category": "potential_contradiction",
+      "explanation": "The respondent selected No for library use but reported six visits in the same month. They may have interpreted the questions differently; clarification would help.",
+      "supporting_evidence": [
+        {"column": "used_library_last_month", "quote": "No"},
+        {"column": "visits_last_month", "quote": "6"}
+      ],
+      "suggested_follow_up_question": "Were the six visits to the campus library during the last calendar month?"
+    },
+    {
+      "response_id": "S003",
+      "issue_category": "vague_response",
+      "explanation": "The answers give a general impression but do not describe the specific experience requested or identify what could be improved.",
+      "supporting_evidence": [
+        {"column": "experience_details", "quote": "It was fine."},
+        {"column": "improvement_suggestion", "quote": "Better stuff."}
+      ],
+      "suggested_follow_up_question": "Could you describe one library experience and name something you would improve?"
+    },
+    {
+      "response_id": "S004",
+      "issue_category": "incomplete_answer",
+      "explanation": "This visitor left the satisfaction rating blank. The survey asks visitors to provide a rating; their optional improvement suggestion can remain blank.",
+      "supporting_evidence": [{"column": "satisfaction_1_to_5", "quote": ""}],
+      "suggested_follow_up_question": "How would you rate your library experience last month from 1 to 5?"
+    },
+    {
+      "response_id": "S007",
+      "issue_category": "potential_contradiction",
+      "explanation": "The visit count is zero, while the experience describes two visits in the same month. The count or timeframe may need clarification.",
+      "supporting_evidence": [
+        {"column": "visits_last_month", "quote": "0"},
+        {"column": "experience_details", "quote": "I visited twice last month"}
+      ],
+      "suggested_follow_up_question": "How many times did you visit the campus library during the last calendar month?"
+    },
+    {
+      "response_id": "S008",
+      "issue_category": "incomplete_answer",
+      "explanation": "This visitor left the required experience description blank, so there is no specific experience to interpret alongside the rating.",
+      "supporting_evidence": [{"column": "experience_details", "quote": ""}],
+      "suggested_follow_up_question": "Could you describe one library experience last month and how it affected your studying?"
+    },
+    {
+      "response_id": "S009",
+      "issue_category": "vague_response",
+      "explanation": "The positive answer does not provide the specific experience and effect on studying requested by the question.",
+      "supporting_evidence": [{"column": "experience_details", "quote": "Everything was good."}],
+      "suggested_follow_up_question": "What went well during a particular visit, and how did it help your studying?"
+    }
+  ]
+}

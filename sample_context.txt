@@ -1,0 +1,7 @@
+Fictional student survey about campus library use in the last calendar month.
+response_id: An anonymous response identifier, not a survey answer.
+used_library_last_month: Required. Did you visit the campus library at least once last month? Yes or No.
+visits_last_month: Required. How many visits did you make to the campus library last month? A whole number, zero or greater. Same timeframe as the previous question.
+satisfaction_1_to_5: Required only for people who visited. Rate your library experience last month from 1 (very dissatisfied) to 5 (very satisfied). Non-visitors skip this question.
+experience_details: Required only for people who visited. Describe one specific library experience last month and how it affected your studying. Non-visitors skip this question.
+improvement_suggestion: Optional. What, if anything, would you change about the library? Blank or no change is a valid answer.
